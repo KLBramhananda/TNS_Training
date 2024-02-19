@@ -19,6 +19,7 @@ public class CustomerDemo {
 		System.out.println( );
 		
 		//default constructor
+		
 		Customer  c1 = new Customer();
 		
 		c1.setCustomerName(name);
@@ -27,8 +28,11 @@ public class CustomerDemo {
 		
 		System.out.println(c1);
 		
+		
 		//parameterized constructor
+		
 		Customer c2 = new Customer(name,id,city);
+		
 		System.out.println("Enter name");
 		name = sc.nextLine();
 		

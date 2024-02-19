@@ -1,15 +1,12 @@
 package Day_02;
 
-public class While {
+public class Tabels {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int i=99;
-		if(i<=100)
-		{
-			System.out.println(i);
-		i++;
+		for (int i = 1; i <= 10; i++) {
+
+			System.out.println("2 * " + i + " = " + (i * 2));
 		}
 	}
-
 }

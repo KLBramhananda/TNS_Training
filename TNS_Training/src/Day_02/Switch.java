@@ -4,7 +4,7 @@ public class Switch {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		char x = 'z';
+		char x = 's';
 		switch (x) 
 		{
 		case 'l' : 
@@ -22,6 +22,7 @@ public class Switch {
 		case 's':
 		case 'S':
 			System.out.println(x+" is Special Symbol");
+			break;
 		default:
 			System.out.println(x+" is other than letter, digit, space or special symbol ");
 			break;

@@ -1,53 +1,56 @@
 package Day_03;
 
 public class Customer {
-	//data members
-		private String customerName;
-		private String customerCity;
-		private String customerId;
-		
+	// data members
+	private String customerName;
+	private String customerCity;
+	private String customerId;
 
-		//Default constructor 
-		public Customer() {
+	// Default constructor
+	public Customer() {
+		System.out.println("Default constructor");
+	}
 
-	      System.out.println("Default constructor");
-		}
+	// Parameterized constructor
+	public Customer(String customerName, String customerCity, String customerId) {
+		System.out.println("Parameterized constructor");
+		this.customerName = customerName;
+		this.customerCity = customerCity;
+		this.customerId = customerId;
+	}
 
-		//parameterized constructor
-		public Customer(String customerName, String customerCity, String customerId) {
-			System.out.println("Parametrized constructor");
-			this.customerName = customerName;
-			this.customerCity = customerCity;
-			this.customerId = customerId;
-		}
-		//getters and setters
-		public String getCustomerName() {
-			return customerName;
-		}
+	// getters and setters
+	public String getCustomerName() {
+		return customerName;
+	}
 
-		public void setCustomerName(String customerName) {
-			this.customerName = customerName;
-		}
+	public void setCustomerName(String customerName) {
+		this.customerName = customerName;
+	}
 
-		public String getCustomerCity() {
-			return customerCity;
-		}
+	public String getCustomerCity() {
+		return customerCity;
+	}
 
-		public void setCustomerCity(String customerCity) {
-			this.customerCity = customerCity;
-		}
+	public void setCustomerCity(String customerCity) {
+		this.customerCity = customerCity;
+	}
 
-		public String getCustomerId() {
-			return customerId;
-		}
+	public String getCustomerId() {
+		return customerId;
+	}
 
-		public void setCustomerId(String customerId) {
-			this.customerId = customerId;
-		}
+	public void setCustomerId(String customerId) {
+		this.customerId = customerId;
+	}
 
-		@Override
-		public String toString() {
-			return "Customer [customerName=" + customerName + ", customerCity=" + customerCity + ", customerId="
-					+ customerId + "]";
-		}
+	@Override
+	public String toString() {
+		return "Customer [customerName=" + customerName + ", customerCity=" + customerCity + ", customerId="
+				+ customerId + "]";
+	}
 }
+
+
+
+
